@@ -1,0 +1,122 @@
+nav{ 
+  align-content: center;
+  margin-bottom: 7px;
+  
+}
+.navbar{
+  height:75px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+a{
+  display: inline-flex;
+  padding: 10px 25px;
+
+
+}
+img{
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+h1{
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+  font-size: 250%;
+
+}
+.barber-title2 {
+  margin-left: 20px;
+}
+.buttons{
+  margin-right: 12px;
+  display: flex;
+}
+
+
+
+.btn-barber {
+  background-color: #111111;
+  color: #ffffff; 
+  border: 2px solid rgb(106, 165, 255);
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+
+.btn-barber:hover {
+  background-color: rgb(106, 165, 255);
+  color: #ffffff;
+  border-color: #000000;
+  box-shadow: 0 0 10px rgba(55, 84, 212, 0.6);
+}
+
+
+.btn-barber:active {
+  transform: scale(0.96);
+}
+
+
+.btn-outline-barber:focus {
+  box-shadow: none;
+}
+
+.btn-outline-barber {
+  background-color: rgb(106, 165, 255);
+  color: #ffffff; 
+  border: 2px solid #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+
+.btn-outline-barber:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+  border-color: rgb(106, 165, 255);
+  box-shadow: 0 0 10px rgba(55, 84, 212, 0.6);
+}
+
+
+.btn-outline-barber:active {
+  transform: scale(0.96);
+}
+
+
+.btn-barber:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 992px) {
+  .buttons{
+    display: none;
+
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons{
+    display: none;
+  }
+  .barber-title{
+    display: none;
+  }
+}
+@media (max-width: 300px) {
+  input{
+    display: none;
+  }
+
+}
+

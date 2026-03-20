@@ -1,0 +1,25 @@
+.paginacion {
+display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+  align-items: center;
+  gap: 8px;
+}
+.pagina-activa {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagina-inactiva {
+  visibility: hidden;
+}
+
+.categorias-grid {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); /* siempre 4 columnas */
+  gap: 1rem;
+  
+
+}
+

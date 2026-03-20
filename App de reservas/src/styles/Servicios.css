@@ -1,0 +1,169 @@
+.buscador {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 6px;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.buscador-inputs {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.buscador-inputs input {
+  flex: 1;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.buscador-inputs button {
+  background-color: rgb(106, 165, 255);
+  color: #ffffff;
+  border: 2px solid #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+.buscador-inputs button:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+  border-color: rgb(106, 165, 255);
+  box-shadow: 0 0 10px rgba(55, 84, 212, 0.6);
+}
+.buscador-inputs button:active {
+  transform: scale(0.96);
+}
+.categorias {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.categorias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.categoria-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categoria-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+h3 {
+  text-align: center;
+}
+
+.recomendaciones {
+  padding: 2rem;
+  background-color: #ededed;
+  border-radius: 6px;
+}
+
+.recomendaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.recomendacion-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.recomendacion-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.form-producto {
+  display: flex;
+
+  gap: 1.5rem;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 6px;
+  align-content: center;
+}
+
+.button-save {
+  background-color: rgb(106, 165, 255);
+  color: #ffffff;
+  border: 2px solid #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+.button-save:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+  border-color: rgb(106, 165, 255);
+  box-shadow: 0 0 10px rgba(55, 84, 212, 0.6);
+}
+
+.button-save:active {
+  transform: scale(0.96);
+}
+
+.button-add {
+  color: white;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.categorias-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .input-date{
+    display: none;
+  }
+  input{
+    width: 10px;
+  }
+}
+

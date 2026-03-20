@@ -1,0 +1,125 @@
+.detalle-producto {
+  padding: 2rem;
+  background-color: #0a1f44; 
+  color: #fff;               
+  border-radius: 8px;
+}
+
+.detalle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.titulo-producto {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: rgb(106, 165, 255);
+  color: #ffffff;
+  border: 2px solid #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+.button:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+  border-color: rgb(106, 165, 255);
+  box-shadow: 0 0 10px rgba(55, 84, 212, 0.6);
+}
+
+.detalle-body {
+  margin-top: 1rem;
+}
+
+.descripcion {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.imagenes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);  
+  gap: 1rem;
+}
+
+.imagenes img {
+  width: 200px;
+  height: 200px;      
+  object-fit: cover;   
+  border-radius: 8px;   
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition:  0.5s ease;
+}
+
+.imagenes img:hover {
+  transform: scale(1.05); 
+
+}
+.btn-vermas {
+  background-color: rgb(106, 165, 255);
+  color: #ffffff;
+  border: 2px solid #000000;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+.btn-vermas:hover {
+  background-color: #111;
+  color: rgb(255, 255, 255);
+  border-color: rgb(106, 165, 255);
+  box-shadow: 0 0 10px rgba(55, 84, 212, 0.6);
+}
+
+@media (max-width: 1400px) {
+  .imagenes {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+  .imagenes img {
+    height: 180px;
+  }
+}
+ @media (max-width: 1000px) {
+  .imagenes {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  .imagenes img {
+    height: 180px;
+  }
+} 
+
+
+@media (max-width: 800px) {
+  .imagenes {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .imagenes img {
+    height: 150px;
+  }
+}
+
+
+@media (max-width:550px) {
+  .imagenes {
+    grid-template-columns: 1fr;
+  }
+  .imagenes img {
+    height: 120px;
+  }
+} 
